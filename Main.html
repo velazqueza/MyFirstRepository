@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title> Main Orchestrator Webpage </title>
+   </head>
+
+   <!-- The asterisk "*" means "whatever remaining space is available in the screen" -->
+   <frameset cols = "200, 600, *">
+
+      <!-- The "menu" frame is the left one -->
+      <frame src = "menu.html"       name = "menu_page"      />
+
+      <!-- The "displayer" frame is the middle one (websites visualizator) -->
+      <frame src = "displayer.html"  name = "displayer_page" />
+
+      <!-- The "contact" frame is the right one (individual credentials) -->
+      <frame src = "contact2.html"   name = "contact_page"   />
+      
+      <noframes>
+         <body> Your browser does not support frames. </body>
+      </noframes>
+   
+   </frameset>
+
+</html>
